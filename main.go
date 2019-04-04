@@ -4,12 +4,11 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
+	"github.com/michaelquigley/figlet/figletlib"
 	"io"
 	"os"
 	"strconv"
 	"strings"
-
-	"github.com/lukesampson/figlet/figletlib"
 )
 
 const (

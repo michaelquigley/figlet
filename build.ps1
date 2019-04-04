@@ -1,1 +1,0 @@
-go build (ls *.go | % { $_.name })
