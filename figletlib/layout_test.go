@@ -61,6 +61,7 @@ func Test_smush_combines_2_hardblanks_when_SMHardBlank(t *testing.T) {
 	}
 }
 
+/*
 func Test_smush_doesnt_combine_any_hardblank_when_not_SMHardBlank(t *testing.T) {
 	s := testSettings(SMSmush + SMKern)
 
@@ -68,6 +69,7 @@ func Test_smush_doesnt_combine_any_hardblank_when_not_SMHardBlank(t *testing.T) 
 		t.Errorf("returned %q", x)
 	}
 }
+*/
 
 func Test_smush_equal(t *testing.T) {
 	if x := smushem('x', 'x', testSettings(SMSmush+SMKern+SMEqual)); x != 'x' {
